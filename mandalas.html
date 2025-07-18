@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mandalas Artesanales - Artegeolaser</title>
+  <meta name="description" content="13 diseños exclusivos de mandalas en madera MDF con zoom interactivo. Cortes láser de precisión.">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+ <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar__container container">
+      <a href="index.html" class="navbar__logo">Artegeolaser</a>
+      <ul class="navbar__menu">
+        <li><a href="index.html#productos" class="navbar__link">Productos</a></li>
+        <li><a href="index.html#sobre" class="navbar__link">Nosotros</a></li>
+        <li><a href="index.html#contacto" class="navbar__link">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="section">
+    <div class="container">
+      <h1 class="heading-2 text-center mb-xl">Mandalas Artesanales en Madera</h1>
+      <p class="text-center mb-xl text-lead">Haz clic en cada imagen para ver los detalles en alta calidad</p>
+      
+      <div class="products-grid">
+        <!-- Mandala 1 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/mandalas/arbol-de-la-vida.jpg', 'Árbol de la Vida - Mandala 38x38cm')">
+            <img src="img/mandalas/arbol-de-la-vida.jpg" 
+                 alt="Árbol de la Vida - Mandala 38x38cm en madera MDF" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Árbol de la Vida</h3>
+            <p class="card__text">38×38 cm | Blanco hueso</p>
+            <span class="card__price">$30.000 CLP</span>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mandala%20Árbol%20de%20la%20Vida%20de%2038x38cm%20($30000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Mandala 2 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/mandalas/flor-24-petalos.jpg', 'Flor 24 Pétalos - Mandala 41x41cm')">
+            <img src="img/mandalas/flor-24-petalos.jpg" 
+                 alt="Flor 24 Pétalos - Mandala 41x41cm en madera MDF" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Flor 24 Pétalos</h3>
+            <p class="card__text">41×41 cm | Blanco natural</p>
+            <span class="card__price">$30.000 CLP</span>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mandala%20Flor%2024%20Pétalos%20de%2041x41cm%20($30000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Mandala 3 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/mandalas/estrella-tetraedrica.jpg', 'Estrella Tetraédrica - Mandala 37x37cm')">
+            <img src="img/mandalas/estrella-tetraedrica.jpg" 
+                 alt="Estrella Tetraédrica - Mandala 37x37cm 5 capas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Estrella Tetraédrica</h3>
+            <p class="card__text">37×37 cm | 5 capas</p>
+            <span class="card__price">$26.000 CLP</span>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mandala%20Estrella%20Tetraédrica%20de%2037x37cm%20($26000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Mandala 4 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/mandalas/flor-de-la-vida.jpg', 'Flor de la Vida - Mandala 37.5x37.5cm')">
+            <img src="img/mandalas/flor-de-la-vida.jpg" 
+                 alt="Flor de la Vida - Mandala 37.5x37.5cm 6 capas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Flor de la Vida</h3>
+            <p class="card__text">37.5×37.5 cm | 6 capas</p>
+            <span class="card__price">$20.000 CLP</span>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mandala%20Flor%20de%20la%20Vida%20de%2037.5x37.5cm%20($20000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Mandala 5 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/mandalas/flor-seis-danzas.jpg', 'Flor de Seis Danzas - Mandala 30x30cm')">
+            <img src="img/mandalas/flor-seis-danzas.jpg" 
+                 alt="Flor de Seis Danzas - Mandala 30x30cm 6 capas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Flor de Seis Danzas</h3>
+            <p class="card__text">30×30 cm | 6 capas</p>
+            <span class="card__price">$25.000 CLP</span>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mandala%20Flor%20de%20Seis%20Danzas%20de%2030x30cm%20($25000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Mandala 6 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/mandalas/armonia-parabolica.jpg', 'Armonía Parabólica - Mandala 37.5x37.5cm')">
+            <img src="img/mandalas/armonia-parabolica.jpg" 
+                 alt="Armonía Parabólica - Mandala 37.5x37.5cm 2 capas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Armonía Parabólica</h3>
+            <p class="card__text">37.5×37.5 cm | 2 capas</p>
+            <span class="card__price">$20.000 CLP</span>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mandala%20Armonía%20Parabólica%20de%2037.5x37.5cm%20($20000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Mandala 7 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/mandalas/cubo-metatron.jpg', 'Cubo de Metatrón - Mandala 38x38cm')">
+            <img src="img/mandalas/cubo-metatron.jpg" 
+                 alt="Cubo de Metatrón - Mandala 38x38cm 5 capas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Cubo de Metatrón</h3>
+            <p class="card__text">38×38 cm | 5 capas</p>
+            <span class="card__price">$25.000 CLP</span>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mandala%20Cubo%20de%20Metatrón%20de%2038x38cm%20($25000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Mandala 8 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/mandalas/abundancia.jpg', 'Mandala de la Abundancia - 31x31cm')">
+            <img src="img/mandalas/abundancia.jpg" 
+                 alt="Mandala de la Abundancia - 31x31cm multicapa" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">De la Abundancia</h3>
+            <p class="card__text">31×31 cm | Multicapa</p>
+            <span class="card__price">$26.000 CLP</span>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mandala%20de%20la%20Abundancia%20de%2031x31cm%20($26000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Mandala 9 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/mandalas/riqueza-interior.jpg', 'Riqueza Interior - Mandala 30x30cm')">
+            <img src="img/mandalas/riqueza-interior.jpg" 
+                 alt="Riqueza Interior - Mandala 30x30cm 4 capas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Riqueza Interior</h3>
+            <p class="card__text">30×30 cm | 4 capas</p>
+            <span class="card__price">$20.000 CLP</span>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mandala%20Riqueza%20Interior%20de%2030x30cm%20($20000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Mandala 10 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/mandalas/espiral-luz.jpg', 'Espiral de Luz - Mandala 37x37cm')">
+            <img src="img/mandalas/espiral-luz.jpg" 
+                 alt="Espiral de Luz - Mandala 37x37cm 4 capas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Espiral de Luz</h3>
+            <p class="card__text">37×37 cm | 4 capas</p>
+            <span class="card__price">$23.000 CLP</span>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mandala%20Espiral%20de%20Luz%20de%2037x37cm%20($23000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Mandala 11 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/mandalas/renovacion-espiritual.jpg', 'Renovación Espiritual - Mandala 32x32cm')">
+            <img src="img/mandalas/renovacion-espiritual.jpg" 
+                 alt="Renovación Espiritual - Mandala 32x32cm 6 capas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Renovación Espiritual</h3>
+            <p class="card__text">32×32 cm | 6 capas</p>
+            <span class="card__price">$30.000 CLP</span>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mandala%20Renovación%20Espiritual%20de%2032x32cm%20($30000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Mandala 12 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/mandalas/mar-serenidad.jpg', 'Mar de Serenidad - Mandala 30x30cm')">
+            <img src="img/mandalas/mar-serenidad.jpg" 
+                 alt="Mar de Serenidad - Mandala 30x30cm 5 capas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Mar de Serenidad</h3>
+            <p class="card__text">30×30 cm | 5 capas</p>
+            <span class="card__price">$25.000 CLP</span>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mandala%20Mar%20de%20Serenidad%20de%2030x30cm%20($25000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Mandala 13 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/mandalas/sri-yantra.jpg', 'Sri Yantra - Mandala 31x31cm')">
+            <img src="img/mandalas/sri-yantra.jpg" 
+                 alt="Sri Yantra - Mandala 31x31cm 5 capas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Sri Yantra</h3>
+            <p class="card__text">31×31 cm | 5 capas</p>
+            <span class="card__price">$20.000 CLP</span>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mandala%20Sri%20Yantra%20de%2031x31cm%20($20000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Sección de información -->
+      <div class="section" style="max-width: 800px; margin: 4rem auto;">
+        <div class="card">
+          <div class="card__body">
+            <h2 class="heading-3 text-center mb-md">Características de Nuestros Mandalas</h2>
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-tree"></i> Material Premium</h3>
+                <p>Madera MDF de 3mm y 6mm de alta densidad, cortada con láser de precisión para detalles perfectos.</p>
+              </div>
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-paint-brush"></i> Acabados</h3>
+                <p>Disponible en blanco hueso, blanco natural y colores especiales bajo pedido.</p>
+              </div>
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-truck"></i> Envíos</h3>
+                <p>Enviamos a todo Chile con embalaje especial para proteger tus mandalas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal de zoom (único para todas las imágenes) -->
+  <div class="zoom-modal" id="zoomModal">
+    <button class="zoom-modal__close" onclick="closeZoomModal()">&times;</button>
+    <div class="zoom-modal__content">
+      <img src="" alt="" class="zoom-modal__image" id="zoomImage">
+      <div class="zoom-modal__caption" id="zoomCaption"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div>
+          <h3 class="footer__title">Artegeolaser</h3>
+          <p>Geometría sagrada en madera</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Contacto</h3>
+          <ul class="footer__links">
+            <li><a href="mailto:jochenpassig@gmail.com" class="footer__link"><i class="fas fa-envelope"></i> jochenpassig@gmail.com</a></li>
+            <li><a href="tel:+56993023029" class="footer__link"><i class="fas fa-phone"></i> +56 9 9302 3029</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">Redes Sociales</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#" class="footer__link"><i class="fab fa-facebook"></i> Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Artegeolaser · Arica, Chile · Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Funciones para controlar el modal de zoom - Versión mejorada
+    function openZoomModal(imageSrc, caption) {
+      const modal = document.getElementById('zoomModal');
+      const zoomImage = document.getElementById('zoomImage');
+      const zoomCaption = document.getElementById('zoomCaption');
+      
+      // Cargar la imagen primero para conocer sus dimensiones
+      const img = new Image();
+      img.onload = function() {
+        zoomImage.src = imageSrc;
+        zoomImage.alt = caption;
+        zoomCaption.textContent = caption;
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        
+        // Centrar la imagen en la vista
+        setTimeout(() => {
+          modal.scrollTop = 0;
+        }, 10);
+      };
+      img.onerror = function() {
+        console.error("Error al cargar la imagen:", imageSrc);
+      };
+      img.src = imageSrc;
+    }
+    
+    function closeZoomModal() {
+      const modal = document.getElementById('zoomModal');
+      modal.classList.remove('active');
+      document.body.style.overflow = ''; // Restaurar scroll
+    }
+    
+    // Cerrar al hacer clic fuera de la imagen
+    document.getElementById('zoomModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeZoomModal();
+      }
+    });
+    
+    // Cerrar con la tecla ESC
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeZoomModal();
+      }
+    });
+    
+    // Precargar imágenes para mejor experiencia
+    window.addEventListener('load', function() {
+      const imageUrls = [
+        'img/mandalas/arbol-de-la-vida.jpg',
+        'img/mandalas/flor-24-petalos.jpg',
+        'img/mandalas/estrella-tetraedrica.jpg',
+        'img/mandalas/flor-de-la-vida.jpg',
+        'img/mandalas/flor-seis-danzas.jpg',
+        'img/mandalas/armonia-parabolica.jpg',
+        'img/mandalas/cubo-metatron.jpg',
+        'img/mandalas/abundancia.jpg',
+        'img/mandalas/riqueza-interior.jpg',
+        'img/mandalas/espiral-luz.jpg',
+        'img/mandalas/renovacion-espiritual.jpg',
+        'img/mandalas/mar-serenidad.jpg',
+        'img/mandalas/sri-yantra.jpg'
+      ];
+      
+      imageUrls.forEach(url => {
+        const img = new Image();
+        img.src = url;
+      });
+    });
+  </script>
+</body>
+</html>

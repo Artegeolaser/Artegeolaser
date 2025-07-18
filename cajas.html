@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cajas Especiales - Artegeolaser</title>
+  <meta name="description" content="Cajas artesanales especiales: Portamandalas y Caja de Runas. Productos únicos con diseños sagrados.">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar__container container">
+      <a href="index.html" class="navbar__logo">Artegeolaser</a>
+      <ul class="navbar__menu">
+        <li><a href="index.html#productos" class="navbar__link">Productos</a></li>
+        <li><a href="index.html#sobre" class="navbar__link">Nosotros</a></li>
+        <li><a href="index.html#contacto" class="navbar__link">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="heading-2 text-center mb-xl">Cajas Especiales</h1>
+      <p class="text-center mb-xl text-lead">Diseños únicos con simbolismo sagrado</p>
+      
+      <div class="products-grid">
+        <!-- Caja Portamandalas -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/cajas/portamandalas1.jpg', 'Caja Portamandalas 25x25cm')">
+            <img src="img/cajas/portamandalas1.jpg" 
+                 alt="Caja Portamandalas 25x25cm con 6 mandalas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Caja Portamandalas</h3>
+            <p class="card__text">25×25 cm | Contiene 6 mandalas de 23cm</p>
+            <p class="card__text">Hermosa caja de madera con diseño especial para guardar y proteger tus mandalas de geometrías sagradas. Incluye 6 mandalas de alta calidad.</p>
+            <span class="card__price">$20.000 CLP</span>
+            
+            <div class="gallery">
+              <div class="gallery__item" onclick="openZoomModal('img/cajas/portamandalas2.jpg', 'Caja Portamandalas - Interior')">
+                <img src="img/cajas/portamandalas2.jpg" alt="Interior caja portamandalas" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/cajas/portamandalas3.jpg', 'Caja Portamandalas - Mandalas')">
+                <img src="img/cajas/portamandalas3.jpg" alt="Mandalas incluidos" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/cajas/portamandalas4.jpg', 'Caja Portamandalas - Detalle')">
+                <img src="img/cajas/portamandalas4.jpg" alt="Detalle de la caja" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/cajas/portamandalas1.jpg', 'Caja Portamandalas - Vista frontal')">
+                <img src="img/cajas/portamandalas1.jpg" alt="Vista frontal caja portamandalas" class="gallery__image" loading="lazy">
+              </div>
+            </div>
+            
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20la%20Caja%20Portamandalas%20de%2025x25cm%20($20000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Caja de Runas -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/cajas/runas1.jpg', 'Caja de Runas')">
+            <img src="img/cajas/runas1.jpg" 
+                 alt="Caja de Runas con decoración especial" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Caja de Runas</h3>
+            <p class="card__text">Decoración rúnica | Incluye todas las runas grabadas</p>
+            <p class="card__text">Caja artesanal con decoración de runas nórdicas. En su interior encontrarás todas las runas grabadas en madera, perfecta para amantes de la cultura vikinga y el esoterismo.</p>
+            <span class="card__price">$15.000 CLP</span>
+            
+            <div class="gallery">
+              <div class="gallery__item" onclick="openZoomModal('img/cajas/runas2.jpg', 'Caja de Runas - Interior')">
+                <img src="img/cajas/runas2.jpg" alt="Interior caja de runas" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/cajas/runas3.jpg', 'Caja de Runas - Runas incluidas')">
+                <img src="img/cajas/runas3.jpg" alt="Runas incluidas" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/cajas/runas4.jpg', 'Caja de Runas - Detalle decoración')">
+                <img src="img/cajas/runas4.jpg" alt="Detalle decoración" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/cajas/runas1.jpg', 'Caja de Runas - Vista frontal')">
+                <img src="img/cajas/runas1.jpg" alt="Vista frontal caja de runas" class="gallery__image" loading="lazy">
+              </div>
+            </div>
+            
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20la%20Caja%20de%20Runas%20($15000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Sección de información -->
+      <div class="section" style="max-width: 800px; margin: 4rem auto;">
+        <div class="card">
+          <div class="card__body">
+            <h2 class="heading-3 text-center mb-md">Características de Nuestras Cajas</h2>
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-box-open"></i> Materiales</h3>
+                <p>Madera de alta calidad con terminaciones artesanales y grabados precisos.</p>
+              </div>
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-magic"></i> Diseño</h3>
+                <p>Patrones sagrados y símbolos con significado espiritual y energético.</p>
+              </div>
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-gem"></i> Funcionalidad</h3>
+                <p>Protegen y organizan tus elementos sagrados, además de ser objetos decorativos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal de zoom -->
+  <div class="zoom-modal" id="zoomModal">
+    <button class="zoom-modal__close" onclick="closeZoomModal()">&times;</button>
+    <div class="zoom-modal__content">
+      <img src="" alt="" class="zoom-modal__image" id="zoomImage">
+      <div class="zoom-modal__caption" id="zoomCaption"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div>
+          <h3 class="footer__title">Artegeolaser</h3>
+          <p>Diseños sagrados y funcionales</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Contacto</h3>
+          <ul class="footer__links">
+            <li><a href="mailto:jochenpassig@gmail.com" class="footer__link"><i class="fas fa-envelope"></i> jochenpassig@gmail.com</a></li>
+            <li><a href="tel:+56993023029" class="footer__link"><i class="fas fa-phone"></i> +56 9 9302 3029</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">Redes Sociales</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#" class="footer__link"><i class="fab fa-facebook"></i> Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Artegeolaser · Arica, Chile · Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Funciones para controlar el modal de zoom
+    function openZoomModal(imageSrc, caption) {
+      const modal = document.getElementById('zoomModal');
+      const zoomImage = document.getElementById('zoomImage');
+      const zoomCaption = document.getElementById('zoomCaption');
+      
+      const img = new Image();
+      img.onload = function() {
+        zoomImage.src = imageSrc;
+        zoomImage.alt = caption;
+        zoomCaption.textContent = caption;
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        
+        setTimeout(() => {
+          modal.scrollTop = 0;
+        }, 10);
+      };
+      img.onerror = function() {
+        console.error("Error al cargar la imagen:", imageSrc);
+      };
+      img.src = imageSrc;
+    }
+    
+    function closeZoomModal() {
+      const modal = document.getElementById('zoomModal');
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+    
+    document.getElementById('zoomModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeZoomModal();
+      }
+    });
+    
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeZoomModal();
+      }
+    });
+    
+    // Precargar imágenes
+    window.addEventListener('load', function() {
+      const imageUrls = [
+        'img/cajas/portamandalas1.jpg',
+        'img/cajas/portamandalas2.jpg',
+        'img/cajas/portamandalas3.jpg',
+        'img/cajas/portamandalas4.jpg',
+        'img/cajas/runas1.jpg',
+        'img/cajas/runas2.jpg',
+        'img/cajas/runas3.jpg',
+        'img/cajas/runas4.jpg'
+      ];
+      
+      imageUrls.forEach(url => {
+        const img = new Image();
+        img.src = url;
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puzzles Star Wars - Artegeolaser</title>
+  <meta name="description" content="Puzzles artesanales de naves Star Wars en madera MDF. Halcón Milenario, Interceptor TIE y X-Wing. 250 piezas con pedestal incluido.">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+   <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar__container container">
+      <a href="index.html" class="navbar__logo">Artegeolaser</a>
+      <ul class="navbar__menu">
+        <li><a href="index.html#productos" class="navbar__link">Productos</a></li>
+        <li><a href="index.html#sobre" class="navbar__link">Nosotros</a></li>
+        <li><a href="index.html#contacto" class="navbar__link">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="heading-2 text-center mb-xl">Puzzles Star Wars</h1>
+      <p class="text-center mb-xl text-lead">250 piezas de desafío y diversión con pedestal incluido</p>
+      
+      <div class="products-grid">
+        <!-- Puzzle Halcón Milenario -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/puzzles/halcon1.jpg', 'Puzzle Halcón Milenario 250 piezas')">
+            <img src="img/puzzles/halcon1.jpg" 
+                 alt="Puzzle Halcón Milenario 250 piezas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Halcón Milenario</h3>
+            <p class="card__text">36×26 cm | 250 piezas | Madera MDF</p>
+            <p class="card__text">Revive la legendaria nave de Han Solo con este desafiante puzzle de 250 piezas. Incluye pedestal display para exhibir tu obra maestra.</p>
+            <span class="card__price">$25.000 CLP</span>
+            
+            <div class="gallery">
+              <div class="gallery__item" onclick="openZoomModal('img/puzzles/halcon2.jpg', 'Puzzle Halcón Milenario - Vista lateral')">
+                <img src="img/puzzles/halcon2.jpg" alt="Vista lateral" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/puzzles/halcon3.jpg', 'Puzzle Halcón Milenario - Detalle piezas')">
+                <img src="img/puzzles/halcon3.jpg" alt="Detalle piezas" class="gallery__image" loading="lazy">
+              </div>
+            </div>
+            
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Puzzle%20Halcón%20Milenario%20de%20250%20piezas%20($25000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Puzzle Interceptor TIE -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/puzzles/interceptor1.jpg', 'Puzzle Interceptor TIE 250 piezas')">
+            <img src="img/puzzles/interceptor1.jpg" 
+                 alt="Puzzle Interceptor TIE 250 piezas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Interceptor TIE</h3>
+            <p class="card__text">32×28 cm | 250 piezas | Madera MDF</p>
+            <p class="card__text">El caza estelar del Imperio en todo su esplendor. Este puzzle captura el diseño icónico de las alas solares y cabina esférica.</p>
+            <span class="card__price">$25.000 CLP</span>
+            
+            <div class="gallery">
+              <div class="gallery__item" onclick="openZoomModal('img/puzzles/interceptor2.jpg', 'Puzzle Interceptor TIE - Vista superior')">
+                <img src="img/puzzles/interceptor2.jpg" alt="Vista superior" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/puzzles/interceptor3.jpg', 'Puzzle Interceptor TIE - Detalle alas')">
+                <img src="img/puzzles/interceptor3.jpg" alt="Detalle alas" class="gallery__image" loading="lazy">
+              </div>
+            </div>
+            
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Puzzle%20Interceptor%20TIE%20de%20250%20piezas%20($25000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Puzzle X-Wing -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/puzzles/xwing1.jpg', 'Puzzle X-Wing 250 piezas')">
+            <img src="img/puzzles/xwing1.jpg" 
+                 alt="Puzzle X-Wing 250 piezas" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">X-Wing Starfighter</h3>
+            <p class="card__text">34×30 cm | 250 piezas | Madera MDF</p>
+            <p class="card__text">El caza rebelde por excelencia, con sus características alas en forma de X. Incluye pedestal para exhibición con ángulo de ataque.</p>
+            <span class="card__price">$25.000 CLP</span>
+            
+            <div class="gallery">
+              <div class="gallery__item" onclick="openZoomModal('img/puzzles/xwing2.jpg', 'Puzzle X-Wing - Alas extendidas')">
+                <img src="img/puzzles/xwing2.jpg" alt="Alas extendidas" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/puzzles/xwing3.jpg', 'Puzzle X-Wing - Detalle motores')">
+                <img src="img/puzzles/xwing3.jpg" alt="Detalle motores" class="gallery__image" loading="lazy">
+              </div>
+            </div>
+            
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Puzzle%20X-Wing%20de%20250%20piezas%20($25000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Sección de información -->
+      <div class="section" style="max-width: 800px; margin: 4rem auto;">
+        <div class="card">
+          <div class="card__body">
+            <h2 class="heading-3 text-center mb-md">Características de Nuestros Puzzles</h2>
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-puzzle-piece"></i> Diseño Detallado</h3>
+                <p>Reproducciones fieles de las naves más icónicas de Star Wars con todos sus detalles característicos.</p>
+              </div>
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-chess-knight"></i> Para Coleccionistas</h3>
+                <p>No solo son puzzles, son piezas de exhibición con pedestal incluido en ángulo dinámico.</p>
+              </div>
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-gem"></i> Calidad Premium</h3>
+                <p>Cortes láser de precisión en madera MDF de alta calidad, 250 piezas por puzzle.</p>
+              </div>
+            </div>
+
+            <div class="mt-lg p-md" style="background: #f8f9fa; border-radius: 8px;">
+              <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-jedi"></i> Colección Completa</h3>
+              <p>Armá tu flota rebelde e imperial con estas tres naves emblemáticas. ¡Próximamente más modelos!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal de zoom -->
+  <div class="zoom-modal" id="zoomModal">
+    <button class="zoom-modal__close" onclick="closeZoomModal()">&times;</button>
+    <div class="zoom-modal__content">
+      <img src="" alt="" class="zoom-modal__image" id="zoomImage">
+      <div class="zoom-modal__caption" id="zoomCaption"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div>
+          <h3 class="footer__title">Artegeolaser</h3>
+          <p>Diseños únicos en madera</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Contacto</h3>
+          <ul class="footer__links">
+            <li><a href="mailto:jochenpassig@gmail.com" class="footer__link"><i class="fas fa-envelope"></i> jochenpassig@gmail.com</a></li>
+            <li><a href="tel:+56993023029" class="footer__link"><i class="fas fa-phone"></i> +56 9 9302 3029</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">Redes Sociales</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#" class="footer__link"><i class="fab fa-facebook"></i> Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Artegeolaser · Arica, Chile · Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Funciones para controlar el modal de zoom
+    function openZoomModal(imageSrc, caption) {
+      const modal = document.getElementById('zoomModal');
+      const zoomImage = document.getElementById('zoomImage');
+      const zoomCaption = document.getElementById('zoomCaption');
+      
+      const img = new Image();
+      img.onload = function() {
+        zoomImage.src = imageSrc;
+        zoomImage.alt = caption;
+        zoomCaption.textContent = caption;
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        
+        setTimeout(() => {
+          modal.scrollTop = 0;
+        }, 10);
+      };
+      img.onerror = function() {
+        console.error("Error al cargar la imagen:", imageSrc);
+      };
+      img.src = imageSrc;
+    }
+    
+    function closeZoomModal() {
+      const modal = document.getElementById('zoomModal');
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+    
+    document.getElementById('zoomModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeZoomModal();
+      }
+    });
+    
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeZoomModal();
+      }
+    });
+    
+    // Precargar imágenes
+    window.addEventListener('load', function() {
+      const imageUrls = [
+        'img/puzzles/halcon1.jpg',
+        'img/puzzles/halcon2.jpg',
+        'img/puzzles/halcon3.jpg',
+        'img/puzzles/interceptor1.jpg',
+        'img/puzzles/interceptor2.jpg',
+        'img/puzzles/interceptor3.jpg',
+        'img/puzzles/xwing1.jpg',
+        'img/puzzles/xwing2.jpg',
+        'img/puzzles/xwing3.jpg'
+      ];
+      
+      imageUrls.forEach(url => {
+        const img = new Image();
+        img.src = url;
+      });
+    });
+  </script>
+</body>
+</html>

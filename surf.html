@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos de Surf - Artegeolaser</title>
+  <meta name="description" content="Productos artesanales para surfistas: mapa de puntos de surf en Arica y tablas talladas con diseños mandala de los spots más famosos.">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar__container container">
+      <a href="index.html" class="navbar__logo">Artegeolaser</a>
+      <ul class="navbar__menu">
+        <li><a href="index.html#productos" class="navbar__link">Productos</a></li>
+        <li><a href="index.html#sobre" class="navbar__link">Nosotros</a></li>
+        <li><a href="index.html#contacto" class="navbar__link">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="heading-2 text-center mb-xl">Productos para Surfistas</h1>
+      <p class="text-center mb-xl text-lead">Arte y funcionalidad para los amantes del surf en Arica</p>
+      
+      <div class="products-grid">
+        <!-- Mapa de surf de Arica -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/surf/mapa1.jpg', 'Mapa de Surf de Arica')">
+            <img src="img/surf/mapa1.jpg" 
+                 alt="Mapa de surf de Arica con puntos destacados" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Mapa de Surf de Arica</h3>
+            <p class="card__text">40×60 cm | Técnica mixta con aerógrafo</p>
+            <p class="card__text">Mapa artístico que muestra los principales puntos de surf en la ciudad de Arica, creado con técnica de aerógrafo en dos capas para destacar los spots más importantes como El Gringo, Las Machas y Arenillas Negras.</p>
+            <span class="card__price">$15.000 CLP</span>
+            
+            <div class="gallery">
+              <div class="gallery__item" onclick="openZoomModal('img/surf/mapa2.jpg', 'Detalle del Mapa de Surf')">
+                <img src="img/surf/mapa2.jpg" alt="Detalle del mapa de surf de Arica" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/surf/mapa1.jpg', 'Mapa completo')">
+                <img src="img/surf/mapa1.jpg" alt="Vista completa del mapa" class="gallery__image" loading="lazy">
+              </div>
+            </div>
+            
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20el%20Mapa%20de%20Surf%20de%20Arica%20($15000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+
+        <!-- Tablas talladas tipo mandala -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/surf/tabla1.jpg', 'Tabla tallada tipo mandala')">
+            <img src="img/surf/tabla1.jpg" 
+                 alt="Tabla tallada con diseño mandala de spot de surf" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Tablas Talladas Mandala</h3>
+            <p class="card__text">15×15 cm | Tallado láser en madera</p>
+            <p class="card__text">Colección de 18 tablas con diseños mandala únicos, cada una grabada con el nombre de un point de surf de Arica como El Gringo, Arenillas Negras, Las Machas y más. Perfectas como decoración o regalo para surfistas.</p>
+            <span class="card__price">$2.000 CLP c/u</span>
+            
+            <div class="gallery">
+              <div class="gallery__item" onclick="openZoomModal('img/surf/tabla2.jpg', 'Detalle de tallado láser')">
+                <img src="img/surf/tabla2.jpg" alt="Detalle del tallado láser" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/surf/tabla1.jpg', 'Tabla completa')">
+                <img src="img/surf/tabla1.jpg" alt="Vista completa de tabla tallada" class="gallery__image" loading="lazy">
+              </div>
+            </div>
+            
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20las%20Tablas%20Talladas%20Mandala%20($2000%20c/u)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Sección de información -->
+      <div class="section" style="max-width: 800px; margin: 4rem auto;">
+        <div class="card">
+          <div class="card__body">
+            <h2 class="heading-3 text-center mb-md">Características de Nuestros Productos</h2>
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-map-marked-alt"></i> Mapa de Surf</h3>
+                <p>Representación artística de los principales spots de surf de Arica, creada con técnica de aerógrafo en dos capas para mayor detalle.</p>
+              </div>
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-chess-board"></i> Tablas Mandala</h3>
+                <p>Colección de 18 tablas talladas con láser, cada una con un diseño mandala único y el nombre de un point de surf emblemático de Arica.</p>
+              </div>
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-gift"></i> Ideal para</h3>
+                <p>Regalos para surfistas, decoración de casas de playa o souvenirs que celebran la cultura surf de Arica.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal de zoom (único para todas las imágenes) -->
+  <div class="zoom-modal" id="zoomModal">
+    <button class="zoom-modal__close" onclick="closeZoomModal()">&times;</button>
+    <div class="zoom-modal__content">
+      <img src="" alt="" class="zoom-modal__image" id="zoomImage">
+      <div class="zoom-modal__caption" id="zoomCaption"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div>
+          <h3 class="footer__title">Artegeolaser</h3>
+          <p>Arte y diseño inspirado en el surf</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Contacto</h3>
+          <ul class="footer__links">
+            <li><a href="mailto:jochenpassig@gmail.com" class="footer__link"><i class="fas fa-envelope"></i> jochenpassig@gmail.com</a></li>
+            <li><a href="tel:+56993023029" class="footer__link"><i class="fas fa-phone"></i> +56 9 9302 3029</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">Redes Sociales</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#" class="footer__link"><i class="fab fa-facebook"></i> Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Artegeolaser · Arica, Chile · Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Funciones para controlar el modal de zoom - Versión mejorada
+    function openZoomModal(imageSrc, caption) {
+      const modal = document.getElementById('zoomModal');
+      const zoomImage = document.getElementById('zoomImage');
+      const zoomCaption = document.getElementById('zoomCaption');
+      
+      // Cargar la imagen primero para conocer sus dimensiones
+      const img = new Image();
+      img.onload = function() {
+        zoomImage.src = imageSrc;
+        zoomImage.alt = caption;
+        zoomCaption.textContent = caption;
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        
+        // Centrar la imagen en la vista
+        setTimeout(() => {
+          modal.scrollTop = 0;
+        }, 10);
+      };
+      img.onerror = function() {
+        console.error("Error al cargar la imagen:", imageSrc);
+      };
+      img.src = imageSrc;
+    }
+    
+    function closeZoomModal() {
+      const modal = document.getElementById('zoomModal');
+      modal.classList.remove('active');
+      document.body.style.overflow = ''; // Restaurar scroll
+    }
+    
+    // Cerrar al hacer clic fuera de la imagen
+    document.getElementById('zoomModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeZoomModal();
+      }
+    });
+    
+    // Cerrar con la tecla ESC
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeZoomModal();
+      }
+    });
+    
+    // Precargar imágenes para mejor experiencia
+    window.addEventListener('load', function() {
+      const imageUrls = [
+        'img/surf/mapa1.jpg',
+        'img/surf/mapa2.jpg',
+        'img/surf/tabla1.jpg',
+        'img/surf/tabla2.jpg'
+      ];
+      
+      imageUrls.forEach(url => {
+        const img = new Image();
+        img.src = url;
+      });
+    });
+  </script>
+</body>
+</html>

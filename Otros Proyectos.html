@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyectos Personalizados - Artegeolaser</title>
+  <meta name="description" content="Creamos cualquier diseño que imagines. Cortes láser personalizados, grabados en vidrio y piedra, prototipos, letreros y más. ¡Pídelo y nosotros lo hacemos realidad!">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+   <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar__container container">
+      <a href="index.html" class="navbar__logo">Artegeolaser</a>
+      <ul class="navbar__menu">
+        <li><a href="index.html#productos" class="navbar__link">Productos</a></li>
+        <li><a href="index.html#sobre" class="navbar__link">Nosotros</a></li>
+        <li><a href="index.html#contacto" class="navbar__link">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero__title">Proyectos Personalizados</h1>
+      <p class="hero__subtitle">¿Imaginas algo? Nosotros lo creamos. Desde diseños encontrados en internet hasta ideas completamente originales, nuestro láser puede hacerlo realidad.</p>
+      <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20un%20proyecto%20personalizado" 
+         class="btn btn--primary"
+         target="_blank">
+         <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="heading-2 text-center mb-xl">Transformamos tus ideas en realidad</h2>
+      <p class="text-center text-lead mb-xl">Adaptamos cualquier diseño encontrado en plataformas especializadas o creamos algo completamente único para ti.</p>
+      
+      <div class="products-grid">
+        <!-- Servicio 1 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/proyectos/adaptacion.jpg', 'Adaptación de diseños')">
+            <img src="img/proyectos/adaptacion.jpg" 
+                 alt="Adaptación de diseños" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Adaptación de Diseños</h3>
+            <p class="card__text">Trabajamos con archivos de plataformas como Thingiverse, Cults3D, MyMiniFactory o Etsy.</p>
+            <ul class="features-list">
+              <li>Conversión de formatos</li>
+              <li>Escalado a medidas exactas</li>
+              <li>Optimización para corte láser</li>
+            </ul>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20adaptación%20de%20diseños" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar
+            </a>
+          </div>
+        </article>
+
+        <!-- Servicio 2 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/proyectos/diseno.jpg', 'Diseño desde cero')">
+            <img src="img/proyectos/diseno.jpg" 
+                 alt="Diseño desde cero" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Diseño desde Cero</h3>
+            <p class="card__text">¿Tienes una idea original? Creamos el archivo vectorial perfecto para materializar tu visión.</p>
+            <ul class="features-list">
+              <li>Diseño personalizado</li>
+              <li>Asesoría técnica</li>
+              <li>Prototipado rápido</li>
+            </ul>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20diseño%20personalizado" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar
+            </a>
+          </div>
+        </article>
+
+        <!-- Servicio 3 -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/proyectos/ensamblaje.jpg', 'Ensamblaje completo')">
+            <img src="img/proyectos/ensamblaje.jpg" 
+                 alt="Ensamblaje completo" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Ensamblaje Completo</h3>
+            <p class="card__text">No solo cortamos las piezas, también las ensamblamos y terminamos para entrega final.</p>
+            <ul class="features-list">
+              <li>Acabados profesionales</li>
+              <li>Pintura y barnizado</li>
+              <li>Producto listo para usar</li>
+            </ul>
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20ensamblaje%20de%20proyectos" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Consultar
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-light">
+    <div class="container">
+      <h2 class="heading-2 text-center mb-xl">Nuestro Proceso</h2>
+      
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="process-step__icon"><i class="fas fa-comments"></i></div>
+          <h3 class="heading-3">Consulta</h3>
+          <p>Comparte tu idea o envíanos el diseño que quieres adaptar.</p>
+        </div>
+        
+        <div class="process-step">
+          <div class="process-step__icon"><i class="fas fa-pencil-ruler"></i></div>
+          <h3 class="heading-3">Diseño</h3>
+          <p>Preparamos o adaptamos los archivos vectoriales para producción.</p>
+        </div>
+        
+        <div class="process-step">
+          <div class="process-step__icon"><i class="fas fa-check-circle"></i></div>
+          <h3 class="heading-3">Aprobación</h3>
+          <p>Te enviamos una vista previa para confirmar que cumple tus expectativas.</p>
+        </div>
+        
+        <div class="process-step">
+          <div class="process-step__icon"><i class="fas fa-cut"></i></div>
+          <h3 class="heading-3">Producción</h3>
+          <p>Cortamos, grabamos y ensamblamos tu proyecto personalizado.</p>
+        </div>
+        
+        <div class="process-step">
+          <div class="process-step__icon"><i class="fas fa-truck"></i></div>
+          <h3 class="heading-3">Entrega</h3>
+          <p>Recibes tu producto terminado, listo para disfrutar o regalar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="heading-2 text-center mb-xl">Ejemplos de Proyectos</h2>
+      <p class="text-center text-lead mb-xl">Estos son algunos ejemplos de lo que podemos crear para ti:</p>
+      
+      <div class="examples-grid">
+        <article class="example-card">
+          <img src="img/proyectos/ejemplo1.jpg" alt="Señalética para cocinerías" class="example-card__image">
+          <div class="example-card__body">
+            <h3 class="heading-3">Señalética para Cocinerías</h3>
+            <p>Letreros y elementos decorativos personalizados para negocios gastronómicos.</p>
+          </div>
+        </article>
+        
+        <article class="example-card">
+          <img src="img/proyectos/ejemplo2.jpg" alt="Prototipos y maquetas" class="example-card__image">
+          <div class="example-card__body">
+            <h3 class="heading-3">Prototipos y Maquetas</h3>
+            <p>Modelos funcionales para pruebas de diseño o presentaciones.</p>
+          </div>
+        </article>
+        
+        <article class="example-card">
+          <img src="img/proyectos/ejemplo3.jpg" alt="Diseños para cumpleaños" class="example-card__image">
+          <div class="example-card__body">
+            <h3 class="heading-3">Diseños para Cumpleaños</h3>
+            <p>Decoración temática y letreros personalizados para eventos.</p>
+          </div>
+        </article>
+        
+        <article class="example-card">
+          <img src="img/proyectos/ejemplo4.jpg" alt="Grabado en vidrio" class="example-card__image">
+          <div class="example-card__body">
+            <h3 class="heading-3">Grabado en Vidrio</h3>
+            <p>Personalización de copas, vasos y espejos con diseños únicos.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h2 class="cta__title">¿Listo para materializar tu idea?</h2>
+      <p class="text-lead mb-md">No importa lo complejo que sea tu proyecto, estamos listos para ayudarte desde el diseño hasta la producción final.</p>
+      <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20consultar%20sobre%20un%20proyecto%20personalizado" 
+         class="btn btn--primary btn--lg"
+         target="_blank">
+         <i class="fab fa-whatsapp"></i> Contáctanos ahora
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div>
+          <h3 class="footer__title">Artegeolaser</h3>
+          <p>Creando lo imposible con tecnología láser</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Contacto</h3>
+          <ul class="footer__links">
+            <li><a href="mailto:jochenpassig@gmail.com" class="footer__link"><i class="fas fa-envelope"></i> jochenpassig@gmail.com</a></li>
+            <li><a href="tel:+56993023029" class="footer__link"><i class="fas fa-phone"></i> +56 9 9302 3029</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">Redes Sociales</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#" class="footer__link"><i class="fab fa-facebook"></i> Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Artegeolaser · Arica, Chile · Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal de zoom -->
+  <div class="zoom-modal" id="zoomModal">
+    <button class="zoom-modal__close" onclick="closeZoomModal()">&times;</button>
+    <div class="zoom-modal__content">
+      <img src="" alt="" class="zoom-modal__image" id="zoomImage">
+      <div class="zoom-modal__caption" id="zoomCaption"></div>
+    </div>
+  </div>
+
+  <script>
+    // Funciones para controlar el modal de zoom
+    function openZoomModal(imageSrc, caption) {
+      const modal = document.getElementById('zoomModal');
+      const zoomImage = document.getElementById('zoomImage');
+      const zoomCaption = document.getElementById('zoomCaption');
+      
+      zoomImage.src = imageSrc;
+      zoomImage.alt = caption;
+      zoomCaption.textContent = caption;
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    
+    function closeZoomModal() {
+      const modal = document.getElementById('zoomModal');
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+    
+    // Cerrar al hacer clic fuera de la imagen
+    document.getElementById('zoomModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeZoomModal();
+      }
+    });
+    
+    // Cerrar con la tecla ESC
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeZoomModal();
+      }
+    });
+    
+    // Precargar imágenes para mejor experiencia
+    window.addEventListener('load', function() {
+      const imageUrls = [
+        'img/proyectos/adaptacion.jpg',
+        'img/proyectos/diseno.jpg',
+        'img/proyectos/ensamblaje.jpg',
+        'img/proyectos/ejemplo1.jpg',
+        'img/proyectos/ejemplo2.jpg',
+        'img/proyectos/ejemplo3.jpg',
+        'img/proyectos/ejemplo4.jpg'
+      ];
+      
+      imageUrls.forEach(url => {
+        const img = new Image();
+        img.src = url;
+      });
+    });
+  </script>
+</body>
+</html>

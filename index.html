@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artegeolaser - Tienda & Portafolio Profesional</title>
+  <meta name="description" content="Arte en madera MDF con corte láser de precisión. Mandalas, casas para gatos, puzzles 3D Starwars y más creaciones únicas desde Arica, Chile.">
+  
+  <!-- Fuentes de Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero__content container">
+      <h1 class="heading-1">Artegeolaser</h1>
+      <p class="text-lead">Inspiración del desierto hecha arte en madera MDF</p>
+      <a href="#productos" class="btn btn--primary btn--lg">Explora nuestras creaciones</a>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar__container container">
+      <a href="index.html" class="navbar__logo">Artegeolaser</a>
+      <ul class="navbar__menu">
+        <li><a href="#productos" class="navbar__link">Productos</a></li>
+        <li><a href="#sobre" class="navbar__link">Nosotros</a></li>
+        <li><a href="#contacto" class="navbar__link">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Intro Section -->
+    <section class="section container">
+      <div class="flex flex-between" style="gap: 3rem; flex-wrap: wrap;">
+        <div style="flex: 1 1 400px; max-width: 600px;">
+          <h2 class="heading-2">Transformamos ideas en madera</h2>
+          <p class="mb-md">
+            Cada pieza es una obra única diseñada con corte láser de precisión sobre madera MDF de alta calidad.
+            Desde mandalas multicapa hasta mecanismos creativos, en Artegeolaser celebramos el arte funcional.
+          </p>
+          <div class="grid" style="grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+            <div class="text-center">
+              <span style="font-size: 2rem;">✂️</span>
+              <p>Corte láser de precisión</p>
+            </div>
+            <div class="text-center">
+              <span style="font-size: 2rem;">🎨</span>
+              <p>Diseños personalizados</p>
+            </div>
+            <div class="text-center">
+              <span style="font-size: 2rem;">🌵</span>
+              <p>Inspiración del desierto</p>
+            </div>
+          </div>
+        </div>
+        <div style="flex: 1 1 400px; max-width: 600px;">
+          <img src="img/fondo2.jpg" alt="Proceso de corte láser en madera" loading="lazy" style="border-radius: var(--border-radius-lg); width: 100%;">
+        </div>
+      </div>
+    </section>
+
+    <!-- Productos Section -->
+    <section id="productos" class="section section--light">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title heading-2">Catálogo de Creaciones</h2>
+        </div>
+        
+        <div class="products-grid">
+          <!-- Producto 1 -->
+          <article class="card">
+            <img src="img/mandala multicapa.jpg" alt="Mandalas Multicapa" class="card__image" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title heading-3">Mandalas Multicapa</h3>
+              <p class="card__text">Decoraciones de capas precisas, perfectas para interiores.</p>
+              <span class="card__price">Desde $20.000 CLP</span>
+              <a href="mandalas.html" class="btn btn--primary mt-md">Ver detalles</a>
+            </div>
+          </article>
+          
+          <!-- Producto 2 -->
+          <article class="card">
+            <img src="img/casadegato/CASA4.jpg" alt="Casas para gatos" class="card__image" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title heading-3">Casas para Gatos</h3>
+              <p class="card__text">Funcionalidad y diseño para tus mascotas.</p>
+              <span class="card__price">Desde $15.000 CLP</span>
+              <a href="gatos.html" class="btn btn--primary mt-md">Ver detalles</a>
+            </div>
+          </article>
+          
+          <!-- Producto 3 - Actualizado a Starwars -->
+          <article class="card">
+            <img src="img/puzzles/star1.jpg" alt="Puzzles 3D Starwars" class="card__image" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title heading-3">Puzzles 3D Starwars</h3>
+              <p class="card__text">Modelos coleccionables inspirados en la saga galáctica.</p>
+              <span class="card__price">Desde $25000 CLP</span>
+              <a href="puzzles.html" class="btn btn--primary mt-md">Ver detalles</a>
+            </div>
+          </article>
+          
+          <!-- Producto 4 -->
+          <article class="card">
+            <img src="img/harrypotter/escudo1.jpg" alt="Harry Potter" class="card__image" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title heading-3">Cajas Harry Potter</h3>
+              <p class="card__text">Diseños mágicos y compartimentos secretos.</p>
+              <span class="card__price">Desde $28.000 CLP</span>
+              <a href="harrypotter.html" class="btn btn--primary mt-md">Ver detalles</a>
+            </div>
+          </article>
+          
+          <!-- Producto 5 -->
+          <article class="card">
+            <img src="img/surf/mapa1.jpg" alt="Arte Surf" class="card__image" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title heading-3">Arte de Surf</h3>
+              <p class="card__text">Inspirado en el espíritu costero de Arica.</p>
+              <span class="card__price">Desde $2.000 CLP</span>
+              <a href="surf.html" class="btn btn--primary mt-md">Ver detalles</a>
+            </div>
+          </article>
+          
+          <!-- Producto 6 -->
+          <article class="card">
+            <img src="img/lamparas/merkaba2.jpg" alt="Lámparas 3D" class="card__image" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title heading-3">Pantallas de Lámparas 3D</h3>
+              <p class="card__text">Iluminación decorativa con diseño artístico.</p>
+              <span class="card__price">Desde $20.000 CLP</span>
+              <a href="lamparas.html" class="btn btn--primary mt-md">Ver detalles</a>
+            </div>
+          </article>
+          
+          <!-- Producto 7 -->
+          <article class="card">
+            <img src="img/lanzadores/rama.jpg" alt="Lanzadores" class="card__image" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title heading-3">Lanzadores Artesanales</h3>
+              <p class="card__text">Creativos mecanismos de juego en MDF.</p>
+              <span class="card__price">Desde $5.000 CLP</span>
+              <a href="lanzadores.html" class="btn btn--primary mt-md">Ver detalles</a>
+            </div>
+          </article>
+          
+          <!-- Producto 8 -->
+          <article class="card">
+            <img src="img/cajas/portamandalas3.jpg" alt="Cajas con mecanismos" class="card__image" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title heading-3">Cajas especiales</h3>
+              <p class="card__text">Mandalas sagradas y Runas.</p>
+              <span class="card__price">Desde $15.000 CLP</span>
+              <a href="cajas.html" class="btn btn--primary mt-md">Ver detalles</a>
+            </div>
+          </article>
+          
+          <!-- Nuevo Producto 9 - Otros Proyectos -->
+          <article class="card">
+            <img src="img/proyectos/adaptacion.jpg" alt="Otros proyectos" class="card__image" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title heading-3">Otros Proyectos</h3>
+              <p class="card__text">Descubre nuestras creaciones especiales y personalizadas.</p>
+              <span class="card__price">Consultar</span>
+              <a href="Otros Proyectos.html" class="btn btn--primary mt-md">Consultar</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Nosotros Section -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title heading-2">¿Quiénes somos?</h2>
+        </div>
+        
+        <div class="text-center" style="max-width: 800px; margin: 0 auto;">
+          <p class="mb-lg">
+            Artegeolaser es un emprendimiento creativo de Arica dedicado al diseño y creación de piezas únicas en madera MDF.
+            Nos inspira el entorno árido, las formas naturales y la innovación en cada corte láser que realizamos.
+          </p>
+          <p class="mb-xl">
+            Trabajamos con clientes particulares, empresas y diseñadores que buscan arte funcional, decoración temática y soluciones a medida.
+          </p>
+          
+          <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-lg);">
+            <div class="card">
+              <div class="card__body">
+                <h3 class="card__title heading-3">Misión</h3>
+                <p class="card__text">Transformar materiales simples en obras de arte funcionales que inspiren y perduren.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__body">
+                <h3 class="card__title heading-3">Visión</h3>
+                <p class="card__text">Ser referentes en diseño láser en madera en el norte de Chile.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section class="section section--light">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title heading-2">Lo que dicen nuestros clientes</h2>
+        </div>
+        
+        <div class="testimonials__container">
+          <div class="testimonial">
+            <div class="testimonial__content">
+              <p>El mandala que encargué superó mis expectativas. La calidad del corte y el diseño son impecables.</p>
+            </div>
+            <div class="testimonial__author">María González, Arica</div>
+          </div>
+          
+          <div class="testimonial">
+            <div class="testimonial__content">
+              <p>La casa para mi gato es su lugar favorito ahora. Muy bien terminada y resistente.</p>
+            </div>
+            <div class="testimonial__author">Carlos Muñoz, Iquique</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto Section - Actualizado con nuevos datos -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title heading-2">Contáctanos</h2>
+          <p class="text-lead">¿Tienes una idea o quieres personalizar uno de nuestros productos?</p>
+        </div>
+        
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-item__icon">📧</span>
+            <div>
+              <strong>Email:</strong>
+              <p>jochenpassig@gmail.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <span class="contact-item__icon">📱</span>
+            <div>
+              <strong>WhatsApp:</strong>
+              <p>+56 9 9302 3029</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <span class="contact-item__icon">📍</span>
+            <div>
+              <strong>Ubicación:</strong>
+              <p>Arica, Chile</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="social-links">
+          <a href="#" class="social-link">Instagram</a>
+          <a href="#" class="social-link">Facebook</a>
+        </div>
+        
+        <div class="flex-center">
+          <a href="https://wa.me/56993023029" target="_blank" class="btn btn--primary btn--lg">Escríbenos por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer - Actualizado con nuevos datos -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div>
+          <h3 class="footer__title">Artegeolaser</h3>
+          <p>Arte en madera MDF con corte láser de precisión.</p>
+        </div>
+        
+        <div>
+          <h3 class="footer__title">Enlaces</h3>
+          <ul class="footer__links">
+            <li><a href="#productos" class="footer__link">Productos</a></li>
+            <li><a href="#sobre" class="footer__link">Nosotros</a></li>
+            <li><a href="#contacto" class="footer__link">Contacto</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="footer__title">Contacto</h3>
+          <ul class="footer__links">
+            <li><a href="mailto:jochenpassig@gmail.com" class="footer__link">jochenpassig@gmail.com</a></li>
+            <li><a href="tel:+56993023029" class="footer__link">+56 9 9302 3029</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p>© 2025 Artegeolaser · Diseño láser en MDF · Arica, Chile</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

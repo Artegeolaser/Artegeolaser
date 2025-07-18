@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lámparas 3D Artesanales - Artegeolaser</title>
+  <meta name="description" content="Lámparas 3D cortadas con láser en madera MDF. Diseños geométricos sagrados: Flor de la Vida, Merkaba y más. Perfectas para mesas de arrimo y veladores.">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar__container container">
+      <a href="index.html" class="navbar__logo">Artegeolaser</a>
+      <ul class="navbar__menu">
+        <li><a href="index.html#productos" class="navbar__link">Productos</a></li>
+        <li><a href="index.html#sobre" class="navbar__link">Nosotros</a></li>
+        <li><a href="index.html#contacto" class="navbar__link">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="heading-2 text-center mb-xl">Lámparas Geométricas 3D</h1>
+      <p class="text-center mb-xl text-lead">Esculturas de luz cortadas con láser que transforman espacios. Pantallas listas para instalar tu sistema LED favorito</p>
+      
+      <div class="products-grid">
+        <!-- Lámpara Flor de la Vida -->
+        <article class="card card--highlight">
+          <div class="card__badge">Más vendida</div>
+          <div class="card__image-container" onclick="openZoomModal('img/lamparas/flor1.jpg', 'Lámpara Flor de la Vida - 12 caras')">
+            <img src="img/lamparas/flor1.jpg" 
+                 alt="Lámpara Flor de la Vida 3D con 12 caras" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Flor de la Vida</h3>
+            <p class="card__text">30×30×25 cm | 12 caras geométricas</p>
+            <p class="card__text">Inspirada en el patrón sagrado de la geometría universal. Esta pantalla 3D de 12 caras interconectadas crea juegos de luz hipnóticos cuando se ilumina. Cada cara muestra el diseño de la semilla de la vida, perfectamente ensamblada.</p>
+            <ul class="card__features">
+              <li><i class="fas fa-seedling"></i> Diseño sagrado que armoniza espacios</li>
+              <li><i class="fas fa-puzzle-piece"></i> 36 piezas de madera ensamblables</li>
+              <li><i class="fas fa-lightbulb"></i> Ideal para luz cálida 3000K</li>
+            </ul>
+            <span class="card__price">$20.000 CLP</span>
+            
+            <div class="gallery">
+              <div class="gallery__item" onclick="openZoomModal('img/lamparas/flor2.jpg', 'Detalle del ensamblaje')">
+                <img src="img/lamparas/flor2.jpg" alt="Detalle del ensamblaje de las 12 caras" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/lamparas/flor1.jpg', 'Efecto de luz')">
+                <img src="img/lamparas/flor1.jpg" alt="Efecto de luz proyectado" class="gallery__image" loading="lazy">
+              </div>
+            </div>
+            
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20la%20Lámpara%20Flor%20de%20la%20Vida%20de%2012%20caras%20($20000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Pedir esta lámpara
+            </a>
+          </div>
+        </article>
+
+        <!-- Lámpara Merkaba -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/lamparas/merkaba1.jpg', 'Lámpara Merkaba - Doble pirámide')">
+            <img src="img/lamparas/merkaba1.jpg" 
+                 alt="Lámpara Merkaba con diseño de doble pirámide" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Merkaba Estelar</h3>
+            <p class="card__text">30×30×25 cm | Doble pirámide 3D</p>
+            <p class="card__text">Representación del sólido platónico Merkaba (estrella tetraédrica) con texturas en cada cara. La pirámide tiene grabados de constelaciones.</p>
+            <ul class="card__features">
+              <li><i class="fas fa-star"></i> Símbolo de protección energética</li>
+              <li><i class="fas fa-mountain"></i> Base estable para velador</li>
+              <li><i class="fas fa-moon"></i> Proyecta sombras de constelaciones</li>
+            </ul>
+            <span class="card__price">$20.000 CLP</span>
+            
+            <div class="gallery">
+              <div class="gallery__item" onclick="openZoomModal('img/lamparas/merkaba2.jpg', 'Detalle de texturas')">
+                <img src="img/lamparas/merkaba2.jpg" alt="Detalle de texturas grabadas" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/lamparas/merkaba1.jpg', 'Vista cenital')">
+                <img src="img/lamparas/merkaba1.jpg" alt="Vista cenital de la doble pirámide" class="gallery__image" loading="lazy">
+              </div>
+            </div>
+            
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20la%20Lámpara%20Merkaba%20de%20doble%20pirámide%20($20000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Pedir esta lámpara
+            </a>
+          </div>
+        </article>
+
+        <!-- Lámpara Cubo Metatrón -->
+        <article class="card">
+          <div class="card__image-container" onclick="openZoomModal('img/lamparas/cubo1.jpg', 'Lámpara Cubo Metatrón')">
+            <img src="img/lamparas/cubo1.jpg" 
+                 alt="Lámpara Cubo Metatrón con grabados sagrados" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Merkaba sagrada</h3>
+            <p class="card__text">30×30×25 cm | geometría</p>
+            <p class="card__text">Esta variación del Merkaba presenta geometrias sagradas grabados en sus caras. Al encenderse, proyecta la matriz sagrada en paredes y techos.</p>
+            <ul class="card__features">
+              <li><i class="fas fa-cube"></i> Contiene todos los sólidos platónicos</li>
+              <li><i class="fas fa-projector"></i> Efecto de proyección 360°</li>
+              <li><i class="fas fa-spa"></i> Ideal para espacios de meditación</li>
+            </ul>
+            <span class="card__price">$20.000 CLP</span>
+            
+            <div class="gallery">
+              <div class="gallery__item" onclick="openZoomModal('img/lamparas/cubo2.jpg', 'Detalle de círculos')">
+                <img src="img/lamparas/cubo2.jpg" alt="Detalle de los círculos grabados" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/lamparas/cubo1.jpg', 'Efecto de proyección')">
+                <img src="img/lamparas/cubo1.jpg" alt="Efecto de proyección en pared" class="gallery__image" loading="lazy">
+              </div>
+            </div>
+            
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20la%20Lámpara%20Cubo%20Metatrón%20($20000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Pedir esta lámpara
+            </a>
+          </div>
+        </article>
+
+        <!-- Lámpara Dodecaedro LED -->
+        <article class="card card--highlight">
+          <div class="card__badge">Novedad</div>
+          <div class="card__image-container" onclick="openZoomModal('img/lamparas/dodeca1.jpg', 'Lámpara Dodecaedro con LED integrado')">
+            <img src="img/lamparas/dodeca1.jpg" 
+                 alt="Lámpara Dodecaedro con iluminación RGB" 
+                 class="card__image" 
+                 loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title heading-3">Dodecaedro Mágico</h3>
+            <p class="card__text">45×45×45 cm | 12 caras pentagonales</p>
+            <p class="card__text">Nuestra pieza premium: dodecaedro crea atmósferas únicas. Cada cara pentagonal tiene grabados de símbolos alquímicos.</p>
+            <ul class="card__features">
+              <li><i class="fas fa-lightbulb"></i> <strong>Ideal para LED RGB </strong> con control remoto</li>
+              <li><i class="fas fa-magic"></i> Imagina proyectar 16 millones de colores</li>
+              <li><i class="fas fa-shapes"></i> Pieza de conversación única</li>
+              <li><i class="fas fa-battery-three-quarters"></i> Opción de diferentes Cortes</li>
+            </ul>
+            <span class="card__price">$30.000 CLP</span>
+            
+            <div class="gallery">
+              <div class="gallery__item" onclick="openZoomModal('img/lamparas/dodeca2.jpg', 'Detalle de grabados')">
+                <img src="img/lamparas/dodeca2.jpg" alt="Detalle de grabados alquímicos" class="gallery__image" loading="lazy">
+              </div>
+              <div class="gallery__item" onclick="openZoomModal('img/lamparas/dodeca1.jpg', 'Cambio de colores')">
+                <img src="img/lamparas/dodeca1.jpg" alt="Efecto de cambio de colores" class="gallery__image" loading="lazy">
+              </div>
+            </div>
+            
+            <a href="https://wa.me/56993023029?text=Hola%20Artegeolaser,%20quiero%20la%20Lámpara%20Dodecaedro%20con%20LED%20RGB%20($30000)" 
+               class="btn btn--primary mt-md"
+               target="_blank">
+               <i class="fab fa-whatsapp"></i> Pedir esta lámpara
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Sección de información -->
+      <div class="section" style="max-width: 800px; margin: 4rem auto;">
+        <div class="card">
+          <div class="card__body">
+            <h2 class="heading-3 text-center mb-md">¿Cómo usar tus lámparas 3D?</h2>
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-puzzle-piece"></i> Ensamblaje</h3>
+                <p>Todas vienen desarmadas en piezas numeradas para fácil ensamblaje (sin pegamentos). Incluyen instrucciones ilustradas paso a paso.</p>
+              </div>
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-lightbulb"></i> Iluminación</h3>
+                <p>Recomendamos ampolletas LED de máximo 9W (equivalente a 60W). El Dodecaedro Mágico ideal para sistema RGB .</p>
+              </div>
+              <div>
+                <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-home"></i> Ubicaciones ideales</h3>
+                <p>Mesas de arrimo, veladores, escritorios o colgadas como pantalla central. Crean puntos focales luminosos en cualquier espacio.</p>
+              </div>
+            </div>
+            
+            <div class="mt-lg p-md" style="background: #f8f9fa; border-radius: 8px;">
+              <h3 class="heading-3" style="font-size: 1.2rem;"><i class="fas fa-exclamation-circle"></i> Importante</h3>
+              <p>Todas nuestras lámparas son <strong>pantallas decorativas</strong>  Necesitarás un portalámparas E27 estándar (no incluido) .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal de zoom -->
+  <div class="zoom-modal" id="zoomModal">
+    <button class="zoom-modal__close" onclick="closeZoomModal()">&times;</button>
+    <div class="zoom-modal__content">
+      <img src="" alt="" class="zoom-modal__image" id="zoomImage">
+      <div class="zoom-modal__caption" id="zoomCaption"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div>
+          <h3 class="footer__title">Artegeolaser</h3>
+          <p>Geometría sagrada convertida en luz</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Contacto</h3>
+          <ul class="footer__links">
+            <li><a href="mailto:jochenpassig@gmail.com" class="footer__link"><i class="fas fa-envelope"></i> jochenpassig@gmail.com</a></li>
+            <li><a href="tel:+56993023029" class="footer__link"><i class="fas fa-phone"></i> +56 9 9302 3029</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">Soporte</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link"><i class="fas fa-question-circle"></i> Guías de instalación</a></li>
+            <li><a href="#" class="footer__link"><i class="fas fa-bolt"></i> Recomendaciones de iluminación</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Artegeolaser · Arica, Chile · Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Funciones para controlar el modal de zoom
+    function openZoomModal(imageSrc, caption) {
+      const modal = document.getElementById('zoomModal');
+      const zoomImage = document.getElementById('zoomImage');
+      const zoomCaption = document.getElementById('zoomCaption');
+      
+      const img = new Image();
+      img.onload = function() {
+        zoomImage.src = imageSrc;
+        zoomImage.alt = caption;
+        zoomCaption.textContent = caption;
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        
+        setTimeout(() => {
+          modal.scrollTop = 0;
+        }, 10);
+      };
+      img.onerror = function() {
+        console.error("Error al cargar la imagen:", imageSrc);
+      };
+      img.src = imageSrc;
+    }
+    
+    function closeZoomModal() {
+      const modal = document.getElementById('zoomModal');
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+    
+    document.getElementById('zoomModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeZoomModal();
+      }
+    });
+    
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeZoomModal();
+      }
+    });
+    
+    // Precargar imágenes
+    window.addEventListener('load', function() {
+      const imageUrls = [
+        'img/lamparas/flor1.jpg',
+        'img/lamparas/flor2.jpg',
+        'img/lamparas/merkaba1.jpg',
+        'img/lamparas/merkaba2.jpg',
+        'img/lamparas/cubo1.jpg',
+        'img/lamparas/cubo2.jpg',
+        'img/lamparas/dodeca1.jpg',
+        'img/lamparas/dodeca2.jpg'
+      ];
+      
+      imageUrls.forEach(url => {
+        const img = new Image();
+        img.src = url;
+      });
+    });
+  </script>
+</body>
+</html>
